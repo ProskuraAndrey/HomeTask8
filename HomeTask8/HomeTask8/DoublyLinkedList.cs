@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace HomeTask8
 {
-    class DoublyLinkedList<T> : IEnumerable<T>
+   public class DoublyLinkedList<T> : IEnumerable<T>
     {
             DoulbyUnit<T> head;
             DoulbyUnit<T> tail;
